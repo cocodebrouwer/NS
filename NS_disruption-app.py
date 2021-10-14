@@ -5,7 +5,7 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 
-st.title('Villa Appelboom 🍏')
+st.title('🍏 Villa Appelboom 🍏')
 
 st.markdown("""
 Welkom!\n
