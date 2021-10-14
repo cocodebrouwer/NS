@@ -5,15 +5,27 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 
-st.title('Test till you drop')
+st.title('Villa Appelboom 🍏')
 
 st.markdown("""
-Dit is mijn testpagina! 
+Welkom!\n
+\n
+
+Ik heb een grafiek voor jullie gemaakt van de inkomsten en uitgaven van het jaar 2017 tot en met 2020. 
+Wat hieraan heel handig is is dat je hem kan vergroten tot schermvullend. 
+Als je bepaalde categorieën wilt bekijken kan je deze in de grafiek selecteren, waardoor ze worden vergroot. 
+Door dubbel in de grafiek te klikken, gaat hij weer naar normale grootte. \n 
+Als je alleen het jaar 2017 en 2018 wilt bekijken kan je deze in de legenda selecteren en deselecteren.
+\n
+
+Daaronder heb ik de gegevens in een tabel weergegeven. Hierbij kan je, als je op de titel klikt, bijvoorbeeld '2017', 
+het op oplopend en aflopende volgorde plaatsen. 
+Zodat je goed kan zien hoeveel iedere categorie heeft bijgedragen. 
+
 
 xoxo
 """)
 
-st.sidebar.header('User Input Features')
 
 # creating lists
 index=["Afval", "Bankkosten", "Belasting", "Energie", "Huur gereedschap", "Huur de Brouwer", "Huur Warmenhoven", "Kantine", "Materiaal (MA)", "Materieel (ML)", "Notaris", "Parkeerkosten", "Service", "Storting de Brouwer", "Storting Warmenhoven", "Vergunning", "Verzekering", "Werk derden", "ZZP", "Inkomsten"]
